@@ -8,6 +8,6 @@ spring:
           uri: https://github.com/RudraMazumder/config-server.git
           username: RudraMazumder
           password: Database-1
-          searchPaths: "{application}"
+          searchPaths: "{application},{label}"
           cloneOnStart: true
           
