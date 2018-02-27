@@ -11,3 +11,21 @@ spring:
           searchPaths: norad*
           cloneOnStart: true
           
+          repos: 
+            norad: 
+              pattern: /norad*
+              uri: https://github.com/RudraMazumder/config-server.git
+              username: RudraMazumder
+              password: Database-1
+              searchPaths: norad*
+              cloneOnStart: true
+            bth: 
+              pattern: /norad*
+              uri: https://github.com/RudraMazumder/config-server.git
+              username: RudraMazumder
+              password: Database-1
+              searchPaths: bth*
+              cloneOnStart: true  
+             
+                
+          
