@@ -13,14 +13,14 @@ spring:
           
           repos: 
             norad: 
-              pattern: /norad*
+              pattern: '*/norad'
               uri: https://github.com/RudraMazumder/config-server.git
               username: RudraMazumder
               password: Database-1
               searchPaths: norad*
               cloneOnStart: true
             bth: 
-              pattern: /norad*
+              pattern: '*/bth'
               uri: https://github.com/RudraMazumder/config-server.git
               username: RudraMazumder
               password: Database-1
