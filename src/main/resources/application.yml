@@ -27,11 +27,11 @@ spring:
               searchPaths: bth*
               cloneOnStart: true  
             badtarget: 
-              pattern: '*/bth'
+              pattern: '*/badtarget'
               uri: https://github.com/RudraMazumder/config-server.git
               username: RudraMazumder
               password: Database-1
-              searchPaths: bth*
+              searchPaths: badtarget*
               cloneOnStart: true    
             
              
