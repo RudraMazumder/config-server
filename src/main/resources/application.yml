@@ -26,6 +26,14 @@ spring:
               password: Database-1
               searchPaths: bth*
               cloneOnStart: true  
+            badtarget: 
+              pattern: '*/bth'
+              uri: https://github.com/RudraMazumder/config-server.git
+              username: RudraMazumder
+              password: Database-1
+              searchPaths: bth*
+              cloneOnStart: true    
+            
              
                 
           
